@@ -1,0 +1,23 @@
+.result-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-form form {
+    position: fixed;
+    top: 32vh;
+    max-width: 80%;
+    padding: 40px 70px;
+    opacity: 0;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+    animation: fadeIn 2s forwards;
+    animation-delay: 1.5s;
+}
+
+@keyframes fadeIn {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}

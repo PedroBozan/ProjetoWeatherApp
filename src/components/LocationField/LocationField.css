@@ -1,0 +1,25 @@
+.location-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 40vh;
+    animation: moveToUp 2s forwards;
+}
+
+.location-field input {
+    font-size: 25px;
+    padding: 18px;
+    border-radius: 25px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+    border: none;
+}
+
+@keyframes moveToUp {
+    from {
+        margin-top: 40vh;
+    }
+    to {
+        margin-top: 15vh;
+    }
+}
